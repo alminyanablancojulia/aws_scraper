@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 SITEMAP_URL = "https://aws.amazon.com/marketplace/sitemap.xml"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 DELAY_SECONDS = 1.5
-SAMPLE_PRODUCTS_TOTAL = 30   # keep small while testing
+SAMPLE_PRODUCTS_TOTAL = 2000   # keep small while testing
 
 OUT_DIR = Path("data")
 OUT_DIR.mkdir(exist_ok=True)
